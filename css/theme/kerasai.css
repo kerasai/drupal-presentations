@@ -5,12 +5,22 @@ html {
     font-size: 48px;
 }
 
-.reveal h1 {
+.reveal h1, 
+.reveal h2, 
+.reveal h3 {
     color: #FB5800;
     font-family: 'Londrina Solid';
 }
 
-.reveal h2, .reveal h3 {
-    color: #FB5800;
-    font-family: 'Londrina Solid';
+.reveal h1 {
+    font-size: 2.5em;
+}
+
+.reveal h2 {
+    font-size: 2em;
+}
+
+.reveal h3 {
+    color: #0C59A3;
+    font-size: 1.5em;
 }
