@@ -1,0 +1,21 @@
+html {
+    background: white;
+    color: black;
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+    font-size: 48px;
+}
+
+.reveal h1 {
+    color: #FB5800;
+    font-family: 'Londrina Solid';
+}
+
+.reveal h2 {
+    color: #FB5800;
+    font-family: 'Londrina Solid';
+}
+
+.reveal h3 {
+    color: #0C59A3;
+    font-family: 'Londrina Solid';
+}
