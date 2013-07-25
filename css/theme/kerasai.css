@@ -10,12 +10,7 @@ html {
     font-family: 'Londrina Solid';
 }
 
-.reveal h2 {
+.reveal h2, .reveal h3 {
     color: #FB5800;
-    font-family: 'Londrina Solid';
-}
-
-.reveal h3 {
-    color: #0C59A3;
     font-family: 'Londrina Solid';
 }
