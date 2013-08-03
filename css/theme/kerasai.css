@@ -24,4 +24,46 @@ html {
 .reveal h3 {
     color: #0C59A3;
     font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.reveal .slides section {
+    padding-bottom: 2em;
+}
+
+.reveal .footer {
+    background: #333;
+    border-top: 1px solid black;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: 'Londrina Solid';
+    font-size: .7em;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.reveal .footer ul {
+    display: table;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+
+.reveal .footer li {
+    display: table-cell;
+    padding: .5em;
+}
+
+.reveal .footer .first {
+    text-align: left;
+}
+
+.reveal .footer .last {
+    text-align: right;
+}
+
+.reveal .footer a {
+    color: #FB5800;
+    text-decoration: none;
 }
