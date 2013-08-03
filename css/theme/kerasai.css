@@ -67,3 +67,13 @@ html {
     color: #FB5800;
     text-decoration: none;
 }
+
+.reveal .about ul {
+    line-height: 2em;
+    list-style-type: none;
+}
+
+.reveal .about ul img {
+    position: relative;
+    top: .3em;
+}
