@@ -67,3 +67,8 @@ html {
     color: #FB5800;
     text-decoration: none;
 }
+
+.reveal .controls {
+    bottom: 0;
+    top: 10px;
+}
