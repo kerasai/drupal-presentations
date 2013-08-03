@@ -77,3 +77,8 @@ html {
     position: relative;
     top: .3em;
 }
+
+.reveal .controls {
+    bottom: 0;
+    top: 10px;
+}
