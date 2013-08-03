@@ -27,10 +27,6 @@ html {
     margin-bottom: .5em;
 }
 
-.reveal .slides section {
-    padding-bottom: 2em;
-}
-
 .reveal .footer {
     background: #333;
     border-top: 1px solid black;
