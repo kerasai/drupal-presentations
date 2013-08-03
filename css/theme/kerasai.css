@@ -9,7 +9,8 @@ html {
 .reveal h2, 
 .reveal h3 {
     color: #FB5800;
-    font-family: 'Londrina Solid';
+    font-family: 'Londrina Solid';    
+    margin-bottom: .3em;
 }
 
 .reveal h1 {
