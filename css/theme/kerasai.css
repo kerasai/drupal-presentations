@@ -79,9 +79,30 @@ html {
     top: 10px;
 }
 
+.reveal .controls div.navigate-up {
+    border-bottom-color: #FB5800;
+}
+
+.reveal .controls div.navigate-down {
+    border-top-color: #FB5800;
+}
+
+.reveal .controls div.navigate-left {
+    border-right-color: #FB5800;
+}
+
+.reveal .controls div.navigate-right {
+    border-left-color: #FB5800;
+}
+
 .text-slide p {
     margin-bottom: 1em;
     text-align: left;
+}
+
+.code-slide p {
+    font-size: .8em;
+    margin-bottom: .5em;
 }
 
 .list-small li {
