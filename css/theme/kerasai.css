@@ -110,3 +110,16 @@ html {
 .most-useful h2 {
     margin-bottom: .5em;
 }
+
+.basics ul {
+    font-size: .8em;
+}
+
+.basics li {
+    margin: 1em 0;
+}
+
+.contribute p {
+    margin-bottom: 1em;
+    text-align: left;
+}
