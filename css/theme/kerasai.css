@@ -94,3 +94,19 @@ html {
 .list-spaced-more li {
     margin-bottom: .8em;
 }
+
+.resources p {
+    font-size: .9em;
+    margin-bottom: .8em;
+    text-align: left;
+}
+
+.most-useful p {
+    font-size: .9em;
+    margin: 1em 0;
+    text-align: left;
+}
+
+.most-useful h2 {
+    margin-bottom: .5em;
+}
