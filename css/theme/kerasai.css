@@ -69,6 +69,11 @@ html {
     top: 10px;
 }
 
+.text-slide p {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
 .list-small li {
     font-size: .85em;
 }
