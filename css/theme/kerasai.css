@@ -68,3 +68,19 @@ html {
     bottom: 0;
     top: 10px;
 }
+
+.list-small li {
+    font-size: .85em;
+}
+
+.list-spaced li {
+    margin-bottom: .5em;
+}
+
+.list-spaced-little li {
+    margin-bottom: .2em;
+}
+
+.list-spaced-more li {
+    margin-bottom: .8em;
+}
