@@ -39,6 +39,10 @@ html {
     width: 100%;
 }
 
+.zoomed .reveal .footer {
+    display: none;
+}
+
 .reveal .footer ul {
     display: table;
     list-style-type: none;
