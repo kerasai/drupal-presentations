@@ -71,10 +71,10 @@
                                     <ul class="list-spaced">
                                         <li>Basics</li>
                                         <li>PSR-0 &amp; Namespaces</li>
-                                        <li>Configuration System</li>
                                         <li>Blocks &amp; Plugins</li>
                                         <li>Menu/Routing System</li>
-                                        <li>Twig & Theme Hooks</li>
+                                        <li>Configuration System</li>
+                                        <li>Twig &amp; Theme Hooks</li>
                                     </ul>
 				</section>
                             
@@ -92,7 +92,7 @@
                                         <img class="fragment" src="assets/img/Polish.jpg" />
                                     </section>
                                     
-                                    <section>
+                                    <section class="text-slide">
                                         <h2>#D8CX</h2>
                                         <h3>The Contrib Experience</h3>
                                         <p>
@@ -102,8 +102,18 @@
 				</section>
 
                                 <section>
-                                    <h2>Test-driven Upgrades</h2>
-                                    <img class="fragment" style="margin-top: 1em; height: 400px" src="assets/img/unicorn_with_butterfly.jpg" />
+                                    <section>
+                                        <h2>Test-driven Upgrades</h2>
+                                        <img class="fragment" style="margin-top: 1em; height: 400px" src="assets/img/unicorn_with_butterfly.jpg" />
+                                    </section>
+                                    <section class="list-spaced-more">
+                                        <h2>Test-driven Upgrades</h2>
+                                        <ul>
+                                            <li>Upgrade using existing tests.</li>
+                                            <li>Write tests for Drupal 7, use to port to Drupal 8.</li>
+                                            <li>Manually test.</li>
+                                        </ul>
+                                    </section>
                                 </section>
                             
                                 <section class="most-useful">
@@ -145,8 +155,8 @@
                                     </section>
                                 </section>
                             
-                            <section class="text-slide" style="font-size: .8em">
-                                    <h2>PSR-0</h2>
+                                <section class="text-slide" style="font-size: .8em">
+                                    <h2 style="margin-bottom: 1em">PSR-0</h2>
                                     <p>
                                         <strong>Namespace</strong><br />Drupal\custom_block\Plugin\Block</a>
                                     </p>
@@ -154,7 +164,40 @@
                                         <strong>File Location</strong><br />lib/Drupal/custom_block/Plugin/Block/CustomBlockBlock.php</a>
                                     </p>
                                 </section>
-                                    
+
+                                <section>
+                                    <section class="code-slide">
+                                        <h2>Menu &amp; Routing</h2>
+                                        <h3>Drupal 7</h3>
+                                        <p>modules/dblog/dblog.module</p>
+                                        <img src="assets/img/d7-dblog-menu.png">
+                                    </section>
+                                    <section class="code-slide">
+                                        <h2>Menu &amp; Routing</h2>
+                                        <h3>Drupal 7</h3>
+                                        <p>modules/dblog/dblog.admin.inc</p>
+                                        <img style="height: 300px" src="assets/img/d7-dblog-overview.png">
+                                    </section>
+                                    <section class="code-slide">
+                                        <h2>Menu &amp; Routing</h2>
+                                        <h3>Drupal 8</h3>
+                                        <p>core/modules/dblog/dblog.module</p>
+                                        <img src="assets/img/d8-dblog-menu.png">
+                                    </section>
+                                    <section class="code-slide">
+                                        <h2>Menu &amp; Routing</h2>
+                                        <h3>Drupal 8</h3>
+                                        <p>core/modules/dblog/dblog.routing.yml</p>
+                                        <img src="assets/img/d8-dblog-routing.png">
+                                    </section>
+                                    <section class="code-slide">
+                                        <h2>Menu &amp; Routing</h2>
+                                        <h3>Drupal 8</h3>
+                                        <p style="font-size: .5em">core/modules/dblog/lib/Drupal/dblog/Controller/DbLogController.php</p>
+                                        <img src="assets/img/d8-dblog-controller.png" style="height: 300px">
+                                    </section>
+                                </section>
+                            
 				<section class="resources">
                                     <h2>Resources</h2>
                                     <p>
