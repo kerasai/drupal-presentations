@@ -109,6 +109,11 @@ html {
     margin-bottom: .5em;
 }
 
+.code-slide img {
+    margin: .5em;
+    max-height: 300px;
+}
+
 .list-small li {
     font-size: .85em;
 }
